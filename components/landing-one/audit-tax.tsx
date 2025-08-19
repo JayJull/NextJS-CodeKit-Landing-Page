@@ -44,7 +44,7 @@ export function AuditTax() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {services.map((service, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="text-center transition-shadow duration-300 border-0 shadow-none">
                 <CardHeader>
                   <div className="w-16 h-16 bg-[#D7B459]/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <service.icon className="h-8 w-8 text-[#D7B459]" />

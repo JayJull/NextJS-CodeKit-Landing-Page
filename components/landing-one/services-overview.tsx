@@ -42,7 +42,7 @@ export function ServicesOverview() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <Card key={index} className="border-2 hover:border-[#D7B459]/50 transition-colors duration-300">
               <CardHeader>
