@@ -17,9 +17,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Careers", href: "/careers" },
-    { name: "Terms & FAQ", href: "/terms" },
+    { name: "Landing One", href: "/landing-one" },
+    { name: "Landing Two", href: "/landing-two" },
+    { name: "Landing Three", href: "/landing-three" },
   ];
 
   return (
