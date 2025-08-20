@@ -122,8 +122,8 @@ export function InvestmentBanking() {
             <div className="relative">
               <div className="bg-gray-100 rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop&crop=face"
-                  alt="Professional businessman"
+                  src="https://plus.unsplash.com/premium_photo-1694475089773-2ddc8068dc3e?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Dubai city skyline"
                   className="w-full h-[600px] object-cover grayscale"
                 />
               </div>

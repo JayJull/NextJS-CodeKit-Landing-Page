@@ -38,43 +38,6 @@ export function HeroSection() {
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
 
-          {/* <div className="mt-12 space-y-6">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-[#D7B459]/10 rounded-full flex items-center justify-center">
-                  <Globe className="h-6 w-6 text-[#D7B459]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">Global Reach</h3>
-                  <p className="text-gray-600 text-sm">
-                    International expertise with local insights
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-[#D7B459]/10 rounded-full flex items-center justify-center">
-                  <TrendingUp className="h-6 w-6 text-[#D7B459]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">Growth Focused</h3>
-                  <p className="text-gray-600 text-sm">
-                    From startup to IPO - we scale with you
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-[#D7B459]/10 rounded-full flex items-center justify-center">
-                  <Shield className="h-6 w-6 text-[#D7B459]" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">
-                    Compliance First
-                  </h3>
-                  <p className="text-gray-600 text-sm">
-                    Regulatory expertise and risk mitigation
-                  </p>
-                </div>
-              </div>
-            </div> */}
         </div>
       </div>
 

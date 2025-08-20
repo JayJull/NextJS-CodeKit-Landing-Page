@@ -22,7 +22,8 @@ export default function LandingOne() {
 
       <main>
         <div className="pt-16">
-          <motion.div
+          <motion.section
+            id="hero"
             initial={{ opacity: 0, y: 60 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -31,9 +32,10 @@ export default function LandingOne() {
             }}
           >
             <HeroSection />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="services"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -43,9 +45,10 @@ export default function LandingOne() {
             }}
           >
             <ServicesOverview />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="company-formation"
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -55,9 +58,10 @@ export default function LandingOne() {
             }}
           >
             <CompanyFormation />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="audit-tax"
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -67,9 +71,10 @@ export default function LandingOne() {
             }}
           >
             <AuditTax />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="investment-banking"
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -79,9 +84,10 @@ export default function LandingOne() {
             }}
           >
             <InvestmentBanking />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="capital-markets"
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -91,9 +97,10 @@ export default function LandingOne() {
             }}
           >
             <CapitalMarkets />
-          </motion.div>
+          </motion.section>
 
-          <motion.div
+          <motion.section
+            id="why-choose-us"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -103,10 +110,11 @@ export default function LandingOne() {
             }}
           >
             <WhyChooseUs />
-          </motion.div>
+          </motion.section>
 
           {/* Custom Cards Section with Fade Left/Right Animation */}
           <motion.section 
+            id="core-strengths"
             className="py-16 bg-gray-50"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -152,13 +160,13 @@ export default function LandingOne() {
                   {
                     icon: Users,
                     title: "Client Partnership",
-                    description: "Building long‑term relationships through trust, transparency, and exceptional service delivery.",
+                    description: "Building long-term relationships through trust, transparency, and exceptional service delivery.",
                     color: "#D7B459"
                   },
                   {
                     icon: TrendingUp,
                     title: "Market Leadership",
-                    description: "Industry‑leading insights and innovative solutions that drive competitive advantage.",
+                    description: "Industry-leading insights and innovative solutions that drive competitive advantage.",
                     color: "#D7B459"
                   },
                   {
@@ -170,7 +178,7 @@ export default function LandingOne() {
                   {
                     icon: Star,
                     title: "Premium Service",
-                    description: "White‑glove service approach with dedicated support throughout your business journey.",
+                    description: "White-glove service approach with dedicated support throughout your business journey.",
                     color: "#D7B459"
                   }
                 ].map((feature, index) => (
@@ -212,7 +220,8 @@ export default function LandingOne() {
             </div>
           </motion.section>
 
-          <motion.div
+          <motion.section
+            id="contact"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -222,7 +231,7 @@ export default function LandingOne() {
             }}
           >
             <ContactSection />
-          </motion.div>
+          </motion.section>
 
           <Footer />
         </div>
