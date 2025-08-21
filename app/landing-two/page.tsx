@@ -112,7 +112,7 @@ export default function Landing() {
             <WhyChooseUs />
           </motion.section>
 
-          {/* Custom Cards Section with Fade Left/Right Animation */}
+          {/* Custom Cards Section with Fade Left/Right Animation cekk*/}
           <motion.section 
             id="core-strengths"
             className="py-16 bg-gray-50"
